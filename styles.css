@@ -1,0 +1,125 @@
+@media screen and (max-width: 500px){
+  .projects-grid {
+    flex-direction: column;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-padding-top: 30px;
+  font-size: 62.5%;
+}
+
+#body {
+  height: 100vh;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+#navbar {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  height: 30px;
+  background: green;
+  color: yellow;
+  top: 0;
+  padding: 0 0 0 10px;
+}
+
+#navbar h2 {
+  /* flex: 4 0 auto; */
+ /* width: 50%; */
+ margin-right: auto;
+}
+
+#navbar a {
+  /* flex: 0 0 auto; */
+  text-decoration: none;
+  color: yellow;
+  padding-left: 20px;
+}
+
+#welcome-section {
+  padding-top: 40px;
+  text-align: center;
+  padding-bottom: 40;
+  background: yellow;
+}
+
+#projects {
+  background-color: lightblue;
+  padding: 15 0;
+}
+
+.project-title {
+  color: blue;
+  text-align: center;
+}
+
+.img-title {
+  text-align: center;
+  background: blue;
+  margin: 0 10px 20px 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-family: sans-serif;
+  padding: 5 0;
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-image {
+  width: 30vw;
+  height: 33vw;
+  margin: 0 10px;
+  object-fit: cover;
+}
+
+#footer-heading {
+  text-align: center;
+}
+
+#footer {
+  background: yellow;
+  padding: 10px;
+}
+
+#footer-links {
+  display: flex;
+  justify-content: space-around;
+  margin: 30 0;
+}
+
+.profile-link {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+hr {
+  color: blue;
+}
+
+#footer-copyright {
+  display: flex;
+  justify-content: space-between;
+}
